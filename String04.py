@@ -6,5 +6,9 @@ def main(s):
     Returns:
         bool: answer
     """
-    
-    return
+    s="Python"
+    if s.lower():
+        return True
+    else:
+        return False
+print(main("Python"))
